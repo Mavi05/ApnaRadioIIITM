@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300,400,700);
+
+body, html {
+	  padding:0;
+	  margin:0;
+	  font-size:14px;
+	  font-family: "Exo 2", sans-serif;
+	  overflow: none;
+	  background: linear-gradient(to right, red, purple);
+	  background-repeat: no-repeat;
+}
+
+.container {
+/*	background-color: black;*/
+	height: 100vh;
+	overflow: none;
+
+}
+
+h1 {
+	color: white;
+	position: absolute;
+	top:5%;
+	left: 23%;
+	font-size: 60px;
+}
+
+img {
+	height: 900px;
+
+}
+
+.logo {
+	position: absolute;
+	top:3%;
+	left: 18%;
+}
+
+.btn {
+	width: 350px;
+	height: 60px;
+	border: 2px solid black;
+	border-radius: 5rem;
+	position: absolute; 
+	bottom: 10%;
+	left: 40%;
+}
+
+.btn:hover {
+	background-color: black;
+	color: black;
+}
+
+a {
+	position: absolute;
+	top:5%;
+	left: 29%;
+	text-decoration: none;
+	font-size: 40px; 
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
